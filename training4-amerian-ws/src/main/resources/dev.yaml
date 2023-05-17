@@ -1,0 +1,26 @@
+http:
+  host: "0.0.0.0"
+  port: "8081"
+  path: "/flights"
+  pathID: "/flights/{ID}"
+mule:
+  version: "4.4.0"
+  
+anypoint:
+  username: "DevMax"
+  password: "MuleMax2021"
+  
+  
+cloudhub:
+  enviroment: "Sandbox"
+  app: "training4-american-ws"
+  bg: "SelfTaught"
+  worker: "Micro"
+  
+  
+db:
+  host: "mudb.learn.mulesoft.com"
+  port: "3306"
+  user: "mule"
+  password: "mule"
+  database: "training"
