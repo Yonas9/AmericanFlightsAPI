@@ -14,7 +14,7 @@ anypoint:
 cloudhub:
   enviroment: "Sandbox"
   app: "training4-american-ws"
-  bg: "SelfTaught"
+  bg: "Learner"
   worker: "Micro"
   
   
@@ -24,3 +24,6 @@ db:
   user: "mule"
   password: "mule"
   database: "training"
+  
+
+  
