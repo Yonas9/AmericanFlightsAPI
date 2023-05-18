@@ -7,7 +7,7 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<packaging>mule-application</packaging>
 
-	<name>training4-american-ws</name>
+	<name>training4-amerian-ws</name>
 
 	<properties>
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
@@ -79,17 +79,17 @@
 			<version>8.0.16</version>
 		</dependency>
 		<dependency>
-			<groupId>08c2c870-ebe5-4298-8ee5-f9d531e6699d</groupId>
-			<artifactId>american-flights-api</artifactId>
-			<version>1.0.1</version>
-			<classifier>raml</classifier>
-			<type>zip</type>
-		</dependency>
-		<dependency>
 			<groupId>org.mule.modules</groupId>
 			<artifactId>mule-apikit-module</artifactId>
 			<version>1.5.11</version>
 			<classifier>mule-plugin</classifier>
+		</dependency>
+		<dependency>
+			<groupId>7a28f29a-36ba-4e36-b31c-7a10cb379bd7</groupId>
+			<artifactId>american-flights-api</artifactId>
+			<version>1.0.2</version>
+			<classifier>raml</classifier>
+			<type>zip</type>
 		</dependency>
 	</dependencies>
 
